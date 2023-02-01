@@ -3,11 +3,53 @@
 @import '../base/layout.css';
 /* 3rd-party */
 /* components */
-
+@import '../components/button.css';
 /* CUSTOM STYLE BELOW THIS COMMENT LINE */
 
 /* header: start */
 /* header: end */
+
+/* hero: start */
+/* hero: end */
+
+/* about me: start */
+/* about me: end */
+
+/* services: start */
+/* services: end */
+
+/* statistics: start */
+/* statistics: end */
+
+/* projects: start */
+/* projects: end */
+
+/* feedback: start */
+/* feedback: end */
+
+/* plans: start */
+/* plans: end */
+
+/* posts: start */
+/* posts: end */
+
+/* brandlogo: start */
+.brand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+    align-items: center;
+    background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+}
+.brand > a {
+    padding: 0 60px;
+    opacity: 50%;
+}
+.brand > a:hover {
+    opacity: 100%;
+}
+/* brandlogo: end */
 
 /* footer: start */
 /* footer: end */
