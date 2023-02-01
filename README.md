@@ -4,7 +4,7 @@
 ![Eco Status](https://img.shields.io/badge/ECO-Friendly-green.svg)
 [![Discord](https://discord.com/api/guilds/571393319201144843/widget.png)](https://discord.gg/dRwW4rw)
 
-# Omex
+# Personal
 
 _website design project_
 
@@ -16,7 +16,7 @@ This project is for educational porpuses only. Pull request are welcome, but pri
 
 Site published at: https://front-end-by-rimantas.github.io/40-grupe-portfolio/
 
-Design: [Omex-3](https://finestwp.co/demos/wp/omex/landing-03/), [Omex-5](https://finestwp.co/demos/wp/omex/landing-05/)
+Design: [Personal](https://preview.colorlib.com/theme/personal/)
 
 ## 🎯 Project features/goals
 
@@ -72,7 +72,13 @@ There is no tests for this project.
 
 ## 🎅 Authors
 
-Rimantas: [Github](https://github.com/belauzas)
+Šarūnas: [Github](https://github.com/SarunasPet)
+Lina: [Github](https://github.com/Diflina)
+Eimantas: [Github](https://github.com/Spectatour)
+Adas: [Github](https://github.com/akudas)
+Iryna: [Github](https://github.com/IrinaVaronka)
+
+
 
 ## ⚠️ License
 
