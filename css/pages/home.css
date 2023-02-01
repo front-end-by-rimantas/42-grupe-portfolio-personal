@@ -40,6 +40,22 @@
 .footer {
     padding: 120px;
     background-color: #04091e;
+    float: left;
+}
+.footer > div > div > h6 {
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+.footer > div > div > p {
+    color: #777777;
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+.footer div p a {
+    text-decoration: none;
+    color: #8490ff;
 }
 /* footer: about me start */
 

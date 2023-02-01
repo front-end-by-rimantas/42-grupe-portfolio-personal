@@ -43,7 +43,6 @@
 
 .container > .row > [class*='col-'] {
     float: left;
-    background-color: aqua;
     margin: var(--half-gap);
 }
 .container > .row > .col-1 {
