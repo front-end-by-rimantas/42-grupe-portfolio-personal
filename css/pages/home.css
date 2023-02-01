@@ -13,12 +13,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 200px;
+    padding: 80px;
     align-items: center;
     background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
 }
 .brand > a {
     padding: 0 60px;
+    opacity: 50%;
+}
+.brand > a:hover {
+    opacity: 100%;
 }
 /* brandlogo: end */
 /* footer: start */
