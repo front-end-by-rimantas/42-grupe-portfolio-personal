@@ -33,4 +33,10 @@
 /* logo: end */
 
 /* footer: start */
+/* footer: about me start */
+/* footer: about me end */
+/* footer: Newsletter start */
+/* footer: Newsletter end */
+/* footer: Follow start */
+/* footer: Follow me */
 /* footer: end */
