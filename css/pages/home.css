@@ -21,6 +21,19 @@
     margin-top: 60px;
 }
 
+.services-item {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.services-item > a {
+    text-decoration: none;
+    color: black;
+}
+
 /* services: end */
 
 /* statistics: start */
