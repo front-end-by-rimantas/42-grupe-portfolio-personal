@@ -71,6 +71,25 @@
 /* services: end */
 
 /* statistics: start */
+.stat {
+    background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+    color: #fff;
+    display: flex;
+    align-items: center; 
+}
+
+
+.numbers {
+    font-size: 36px; 
+    text-align: center;
+    font-weight: 700;
+}
+
+.facts {
+    font-size: 16px; 
+    font-weight: 300;
+    line-height: 2em;
+}
 /* statistics: end */
 
 /* projects: start */
