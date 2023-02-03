@@ -10,6 +10,31 @@
 /* header: end */
 
 /* hero: start */
+.container.hero {
+    padding-top: 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.hero.row {
+    position: relative;
+    display: flex;
+}
+
+.left-title {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 20px;
+ 
+}
+
+.right-img {
+    display: flex;
+    flex-direction: column; 
+}
+
+
 /* hero: end */
 
 /* about me: start */
