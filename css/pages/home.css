@@ -78,10 +78,11 @@
 
 /* footer: start */
 .footer {
-    padding: 120px;
+    padding: 120px 0;
     background-color: #04091e;
     float: left;
 }
+/* footer: about me start */
 .footer > div > div > h6 {
     text-transform: capitalize;
     color: #fff;
@@ -97,11 +98,24 @@
     text-decoration: none;
     color: #8490ff;
 }
-/* footer: about me start */
-
 /* footer: about me end */
 
 /* footer: Newsletter start */
+.sub {
+    display: flex;
+    flex-direction: row;
+}
+.sub > input {
+    width: 60%;
+    font-size: 14px;
+    line-height: 2em;
+    padding-left: 10px;
+    outline: none;
+    text-transform: capitalize;
+}
+.sub > a.btn {
+    background: #8490ff;
+}
 /* footer: Newsletter end */
 
 /* footer: Follow me start */
