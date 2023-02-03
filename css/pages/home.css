@@ -37,16 +37,20 @@
 .brand {
     display: flex;
     justify-content: center;
-    align-items: center;
     padding: 80px;
     align-items: center;
     background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
 }
-.brand > a {
+.brand > .row {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.brand > .row > a {
     padding: 0 60px;
     opacity: 50%;
 }
-.brand > a:hover {
+.brand > .row > a:hover {
     opacity: 100%;
 }
 /* brandlogo: end */
