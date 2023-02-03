@@ -106,12 +106,18 @@
     flex-direction: row;
 }
 .sub > input {
+    color: #495057;
     width: 60%;
     font-size: 14px;
-    line-height: 2em;
-    padding-left: 10px;
+    line-height: 1em;
+    padding-left: 5px;
     outline: none;
     text-transform: capitalize;
+    border-radius: 0;
+    border: 0;
+}
+.sub > input::selection {
+    background: #222;
 }
 .sub > a.btn {
     background: #8490ff;
