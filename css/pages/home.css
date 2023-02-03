@@ -16,6 +16,11 @@
 /* about me: end */
 
 /* services: start */
+.services {
+    text-align: center;
+    margin-top: 60px;
+}
+
 /* services: end */
 
 /* statistics: start */
