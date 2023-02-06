@@ -167,7 +167,16 @@
 /* feedback: end */
 
 /* plans: start */
-
+.plan-title {
+    font-size: 36px; 
+    font-weight: 700;
+}
+.plans {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
 .choose-plan {
     display: flex;
     flex-direction: column;
@@ -203,6 +212,7 @@
     transform: translate(-50%, -50%);
     text-align: center;
     font-size: 36px;
+    font-weight: normal;
 }
 ul {
     list-style: none;
@@ -216,10 +226,11 @@ ul {
 }
 li {
     font-size: 14px;
-    line-height: 1.5em;
-    padding: 10px 0;
+    line-height: 1.1em;
+    padding: 1.2em 1.2em;
     border-bottom: 1px solid #eee;
     border-top: 1px solid #eee;
+    text-transform: capitalize;
 }
 li:first-child {
     border-bottom: none;
@@ -240,14 +251,17 @@ li:last-child {
     text-align: center;
     gap: 20px;
     padding: 30px;
+    transition: all .2s ease-in-out; 
 }
 .plan-buy{
     display: none;
     background: #fff;
     color: #04091e;
     text-transform: uppercase;
+    padding: 0.6em 2em;
 }
 .plan:hover {
+    transform: scale(1.05);
     background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
 }
 .plan:hover > .descr{
