@@ -67,6 +67,40 @@
 /* hero: end */
 
 /* about me: start */
+.container.about-me {
+    padding-top: 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-me.row {
+    position: relative;
+    display: flex;
+}
+
+.about-me-img {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-me {
+    font-weight: 400;
+    font-size: 14px;
+    color: #222222;
+}
+
+.personal-details {
+    font-size: 36px;
+    color: #222222;
+}
+
+.about-me-title {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 20px;
+}
 /* about me: end */
 
 /* services: start */
