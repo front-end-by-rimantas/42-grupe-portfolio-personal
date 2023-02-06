@@ -84,6 +84,58 @@
 /* about me: end */
 
 /* services: start */
+.services {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.service-feature {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.services-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+}
+
+.services-item > span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 55px;
+    height: 55px;
+}
+
+.services-item > a {
+    font-size: 17px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+.services-item > p {
+    font-size: 15px;
+    color: #777777;
+}
+
+@media (min-width: 786px) {
+    .service-feature {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 992px) {
+    .service-feature {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+}
+
 /* services: end */
 
 /* statistics: start */
