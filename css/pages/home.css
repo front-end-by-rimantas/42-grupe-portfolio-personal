@@ -6,6 +6,8 @@
 @import '../3rd-party/font-awesome.min.css';
 /* components */
 @import '../components/button.css';
+@import '../components/gallery.css';
+
 /* CUSTOM STYLE BELOW THIS COMMENT LINE */
 
 /* header: start */
