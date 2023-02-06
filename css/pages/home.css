@@ -137,6 +137,8 @@
     float: left;
 }
 .footer > .row > div{
+    font-size: 18px;
+    min-height: 9em;
     margin: 10px 10px;
 }
 /* footer: about me start */
