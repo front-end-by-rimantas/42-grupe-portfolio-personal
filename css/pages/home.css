@@ -2,11 +2,42 @@
 @import '../base/base.css';
 @import '../base/layout.css';
 /* 3rd-party */
+
+@import '../3rd-party/font-awesome.min.css';
 /* components */
 @import '../components/button.css';
+@import '../components/gallery.css';
+
 /* CUSTOM STYLE BELOW THIS COMMENT LINE */
 
 /* header: start */
+.container-fluid > .row {
+    margin-top: -60px;
+}
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: relative; 
+    }
+
+    .nav-menu a {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #222;
+        font-weight: 500;
+        font-size: 12px;
+        padding: 0 10px;
+}
+.nav-menu a:hover {
+    color: #8490ff;
+    transition: all 0.3s;
+}
+.nav-menu > a:first-of-type {
+    color: #8490ff;
+}
+
+   
 /* header: end */
 
 /* hero: start */
@@ -56,6 +87,25 @@
 /* services: end */
 
 /* statistics: start */
+.stat {
+    background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+    color: #fff;
+    display: flex;
+    align-items: center; 
+}
+
+
+.numbers {
+    font-size: 36px; 
+    text-align: center;
+    font-weight: 700;
+}
+
+.facts {
+    font-size: 16px; 
+    font-weight: 300;
+    line-height: 2em;
+}
 /* statistics: end */
 
 /* projects: start */
@@ -74,26 +124,34 @@
 .brand {
     display: flex;
     justify-content: center;
-    align-items: center;
     padding: 80px;
     align-items: center;
     background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
 }
-.brand > a {
+.brand > .row {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.brand > .row > a {
     padding: 0 60px;
     opacity: 50%;
 }
-.brand > a:hover {
+.brand > .row > a:hover {
     opacity: 100%;
 }
 /* brandlogo: end */
 
 /* footer: start */
 .footer {
-    padding: 120px;
+    padding: 120px 0;
     background-color: #04091e;
     float: left;
 }
+.footer > .row > div{
+    margin: 10px 10px;
+}
+/* footer: about me start */
 .footer > div > div > h6 {
     text-transform: capitalize;
     color: #fff;
@@ -109,14 +167,41 @@
     text-decoration: none;
     color: #8490ff;
 }
-/* footer: about me start */
-
 /* footer: about me end */
 
 /* footer: Newsletter start */
+.sub {
+    display: flex;
+    flex-direction: row;
+}
+.sub > input {
+    color: #495057;
+    width: 100%;
+    font-size: 14px;
+    line-height: 1em;
+    padding-left: 5px;
+    outline: none;
+    text-transform: capitalize;
+    border-radius: 0;
+    border: 0;
+}
+.sub > input::selection {
+    background: #222;
+}
+.sub > a.btn {
+    background: #8490ff;
+}
 /* footer: Newsletter end */
 
 /* footer: Follow me start */
+.socials > a{
+    margin: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+.socials > a:hover {
+    color: #8490ff;
+}
 /* footer: Follow me end */
 
 /* footer: end */
