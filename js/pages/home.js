@@ -36,6 +36,15 @@
 /* footer: about me start */
 /* footer: about me end */
 /* footer: Newsletter start */
+
+const btn = document.querySelector('.btn.subscribe');
+const update = document.querySelector('.update');
+
+btn.addEventListener('click', function(event) {
+  update.classList.remove('hidden');
+  update.classList.add('visible');
+});
+// console.log(subscribeDOM);
 /* footer: Newsletter end */
 /* footer: Follow start */
 /* footer: Follow me */

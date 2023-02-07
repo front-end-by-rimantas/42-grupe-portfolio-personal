@@ -168,6 +168,11 @@
     gap: 20px;
     padding: 50px 50px;
 }
+.choose-plan *::selection,
+.plans *::selection {
+    background: #8490ff;
+    color: #fff;
+}
 .descr {
     color: #777777;
 }
@@ -348,8 +353,18 @@ li:last-child {
 .sub > input::selection {
     background: #222;
 }
-.sub > a.btn {
+.sub > button.btn {
     background: #8490ff;
+    cursor: pointer;
+}
+.update {
+    margin: 20px 0;
+    color: #fff;
+    font-size: 12px;
+}
+.footer *::selection {
+    background-color: #191919;
+    color: #777777;
 }
 /* footer: Newsletter end */
 
