@@ -6,6 +6,7 @@
 @import '../3rd-party/font-awesome.min.css';
 /* components */
 @import '../components/button.css';
+@import '../components/plans.css';
 @import '../components/gallery.css';
 @import '../components/header.css';
 @import '../components/post.css';
@@ -151,132 +152,6 @@
 /* feedback: end */
 
 /* plans: start */
-.plan-title {
-    font-size: 36px; 
-    font-weight: 700;
-}
-.plans {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-.choose-plan {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    gap: 20px;
-    padding: 50px 50px;
-}
-.choose-plan *::selection,
-.plans *::selection {
-    background: #8490ff;
-    color: #fff;
-}
-.descr {
-    color: #777777;
-}
-.big-circle {
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-    background-color: #E2E5FF;
-    position: relative;
-}
-.small-circle {
-    height: 60px;
-    width: 60px;
-    border-radius: 50%;
-    background-color: #EDEFFF;
-    position: absolute;
-    top: 50%;
-   left: 50%;
-    margin: -30px 0px 0px -30px;
-}
-.small-circle span {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    font-size: 36px;
-    font-weight: normal;
-}
-ul {
-    list-style: none;
-    text-align: center;
-}
-.plan-top {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    align-items: center;
-}
-li {
-    font-size: 14px;
-    line-height: 1.1em;
-    padding: 1.2em 1.2em;
-    border-bottom: 1px solid #eee;
-    border-top: 1px solid #eee;
-    text-transform: capitalize;
-}
-li:first-child {
-    border-bottom: none;
-}
-li:last-child {
-    border-top: none;
-}
-.price {
-    display: inline-block;
-    font-weight: 300;
-    font-size: 36px;
-}
-
-.plan {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    gap: 20px;
-    padding: 30px;
-    transition: all .2s ease-in-out; 
-}
-.plan-buy{
-    display: none;
-    background: #fff;
-    color: #04091e;
-    text-transform: uppercase;
-    padding: 0.6em 2em;
-}
-.plan:hover {
-    transform: scale(1.05);
-    background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
-}
-.plan:hover > .descr{
-    color: #ffffff;
-}
-.plan:hover > .plan-top > .descr{
-    color: #ffffff;
-}
-.plan:hover > .plan-top > h3{
-    color: #ffffff;
-}
-.plan:hover > .plan-top > .big-circle > .small-circle > span {
-    color: #ffffff;
-}
-.plan:hover .price {
-    display: none;
-}
-.plan:hover .plan-buy {
-    display: inline-block;
-}
-.plan:hover > .plan-top > .big-circle{
-    background-color: #9EBCFE;
-}
-.plan:hover > .plan-top > .big-circle > .small-circle {
-    background-color: #83ACFD;
-}
 /* plans: end */
 
 /* posts: start */
@@ -288,6 +163,7 @@ li:last-child {
 .brand {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     padding: 80px;
     align-items: center;
     background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
