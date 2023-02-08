@@ -1,0 +1,67 @@
+.post-container {
+    background-color: #f9f9fe; 
+    display: grid; 
+}
+.post-container .post-part {
+     display: grid;
+     gap: 30px;
+}
+.post-container .description {
+    font-size: 17px;
+    line-height: 1.5em;
+    margin-bottom: 30px;
+}
+
+.post-container .post-part > .single-post {
+    width: 100%;
+    
+}
+.post-container .single-post > .post-img {
+    width: 100%;
+    padding-bottom: 10px;
+}
+.post-container .single-post > .post-data {
+    display: flex;
+    align-items: center;
+    
+}
+.post-data > .name-user {
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 300;
+    color: #222222;
+    font-size: 16px;
+    
+}
+.data-statistics > .likes > a {
+    text-decoration: none;
+    color: #777777;
+    font-weight: 300;
+    font-size: 16px;
+}
+.data-statistics > a {
+    color: #777777;
+    font-weight: 300;
+    font-size: 16px; 
+    text-decoration: none; 
+}
+.data-statistics > span {
+    
+}
+
+
+@media (min-width: 767px) {
+    .post-container .post-part {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+
+/* <div class="likes">
+    <a href="#" class="fa fa-heart-o">15</a>
+    <a href="#" class="fa fa-comment-o">04</a> 
+    </div> */
+
+
+
