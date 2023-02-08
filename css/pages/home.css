@@ -294,11 +294,12 @@ li:last-child {
 }
 .brand > .row {
     display: flex;
+    align-items: center;
+    justify-content: space-evenly;
     gap: 20px;
     flex-wrap: wrap;
 }
 .brand > .row > a {
-    padding: 0 60px;
     opacity: 50%;
 }
 .brand > .row > a:hover {
