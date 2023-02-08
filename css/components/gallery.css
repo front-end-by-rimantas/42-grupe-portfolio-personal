@@ -1,6 +1,6 @@
 .gallery {
 display: grid;
-gap: 50px;
+gap: 40px;
 }
 .gallery > .filter {
     display: flex;
@@ -9,43 +9,88 @@ gap: 50px;
     flex-wrap: wrap;
 }
 .gallery > .filter > .pointer {
-    padding: 5px 18px;
-    font-size: 11px;
-    font-weight: 600;
+    padding: 5px 28px;
+    font-size: 12px;
+    font-weight: 500;
     text-transform: uppercase;
     color: #222;
     border: none;
     background-color: #fff;
     cursor: pointer;
+    margin-bottom: 20px;
+    
 }
 .gallery > .filter > .pointer.active {
     color: #8490ff;
 }
-.gallery > .filter > .pointer:hover {}
+.gallery > .filter > .pointer:hover {
+    
+}
 
 .gallery > .gallery-content {
     display: grid;
-    gap: 20px;
+    grid-template-columns: 1fr;
+    gap: 30px;
+    
 }
 .gallery > .gallery-content > .item {
-    width: 100%;
+    display: grid;
+    text-align: center;
+    gap: 15px;
+   
 }
+    
 .gallery .item > .project-img {
     width: 100%;
+    height: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    object-position: center;
+    transition: all 0.3s;
+    
 }
-.gallery .item > .hover-bg {}
-.gallery .hover-bg > .icon {}
-.gallery > .item > .design-name {}
-.gallery .design-name > .title {}
-.gallery .design-name > .tag {}
+.gallery .project-img > .hover-bg{
+    display: none;
+    position: absolute;
+    top: 0; 
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+}
+
+.gallery .hover-bg > .icon {
+   
+}
+.gallery > .item > .design-name {
+    
+}
+.gallery .design-name > .title {
+    padding: 0 1em;
+    font-size: 18px;
+    padding-bottom: 8px;
+   
+}
+.gallery .design-name > .tag {
+    padding: 0 1em;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 300;
+    color: #777777;
+    
+}
+
 
 @media (min-width: 576px) {
     .gallery > .gallery-content {
         grid-template-columns: 1fr 1fr 1fr;
+        
     }
 }
-@media (min-width: 576px) {
+@media (min-width: 1100px) {
     .gallery > .gallery-content {
         grid-template-columns: 1fr 1fr 1fr;
+        margin-left: 60px;
+        margin-right: 60px;
     }
 }
