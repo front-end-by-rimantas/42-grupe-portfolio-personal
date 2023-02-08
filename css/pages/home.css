@@ -9,6 +9,7 @@
 @import '../components/plans.css';
 @import '../components/gallery.css';
 @import '../components/header.css';
+@import '../components/post.css';
 
 /* CUSTOM STYLE BELOW THIS COMMENT LINE */
 
@@ -17,7 +18,7 @@
 
 /* hero: start */
 .container.hero {
-    padding-top: 0;
+    padding-bottom: 0;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -28,6 +29,7 @@
 }
 
 .left-title {
+    padding-top: 110px;
     display: flex;
     flex-direction: column;
     gap: 20px; 
@@ -39,17 +41,24 @@
     text-transform: uppercase;
     font-weight: 400;
     letter-spacing: 2px;
+    color: #222222;
 }
 
 .title-h1 { 
     text-transform: uppercase;
+    color: #222222;
 }
 .left-title > p {
+    
     margin-bottom: 15px;
     font-size: 15px;
     line-height: 1.7em;
     color: #777777;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.right-img {
+    max-width: 100%;
+    height: auto;
 }
 
 
@@ -221,8 +230,18 @@
 .sub > input::selection {
     background: #222;
 }
-.sub > a.btn {
+.sub > button.btn {
     background: #8490ff;
+    cursor: pointer;
+}
+.update {
+    margin: 20px 0;
+    color: #fff;
+    font-size: 12px;
+}
+.footer *::selection {
+    background-color: #191919;
+    color: #777777;
 }
 /* footer: Newsletter end */
 
