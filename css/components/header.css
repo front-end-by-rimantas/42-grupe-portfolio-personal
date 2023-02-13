@@ -1,9 +1,6 @@
 .header {
     padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 8em;
-    padding-right: 10em;
-    
+    padding-bottom: 0;   
 }
 .header > .row {
     margin-top: 0;
@@ -37,4 +34,14 @@
 }
 .main-nav > a:first-of-type {
     color: #8490ff;
+}
+.hamburger {
+    font-size: 24px;
+    border: none;
+    background: transparent;
+    position: absolute;
+    top: -15;
+    right: 0;
+    margin-right: 15px;
+    cursor: pointer;
 }
