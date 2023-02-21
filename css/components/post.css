@@ -5,6 +5,7 @@
 .post-container .post-part {
      display: grid;
      gap: 30px;
+
 }
 .post-container .description {
     font-size: 17px;
@@ -14,31 +15,48 @@
 
 .post-container .post-part > .single-post {
     width: 100%;
+    padding: 0 15px;
     
 }
 .post-container .single-post > .post-img {
     width: 100%;
-    padding-bottom: 10px;
+    object-fit: cover;
 }
 .post-container .single-post > .post-data {
     display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border-bottom: 1px solid #eee;
+    padding: 10px 0;
+    justify-content: space-between;
     align-items: center;
+    width: 100%;
+ 
     
 }
-.post-data > .name-user {
+.user-img {
+    padding-right: 10px;
+}
+.name-user {
     text-decoration: none;
-    padding-left: 20px;
-    padding-right: 20px;
     font-weight: 300;
     color: #222222;
     font-size: 16px;
+    margin-right: auto;
+    
     
 }
-.data-statistics > .likes > a {
+.data-statistics {
+    flex-wrap: wrap;
+}
+
+.likes > a {
     text-decoration: none;
     color: #777777;
     font-weight: 300;
     font-size: 16px;
+   
 }
 .data-statistics > a {
     color: #777777;
@@ -47,21 +65,34 @@
     text-decoration: none; 
 }
 .data-statistics > span {
+    color: #777777;
+    font-weight: 300;
+    font-size: 16px; 
+    text-decoration: none; 
+}
+.posttitle {
+    color: #222222;
+    text-decoration: none;
+    font-size: 25px;
+    padding-top: 20px;
     
 }
-
+.posttitle > p {
+    font-size: 17px;
+    color: #777777;
+    padding-top: 10px;
+    font-weight: 300;
+}
 
 @media (min-width: 767px) {
     .post-container .post-part {
         grid-template-columns: 1fr 1fr 1fr;
+        padding-left: 80px;
+        padding-right: 80px;
     }
 }
 
 
-/* <div class="likes">
-    <a href="#" class="fa fa-heart-o">15</a>
-    <a href="#" class="fa fa-comment-o">04</a> 
-    </div> */
 
 
 
